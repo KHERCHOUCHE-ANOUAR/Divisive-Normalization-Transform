@@ -167,7 +167,7 @@ def norm_sender_normalized(pyro,pind,Nsc,Nor,parent,neighbor,blSzX,blSzY,nbins):
 
 
     return subband, np.reshape(shape,(12,2))
-start_time = time.time()
+#start_time = time.time()
 coef=np.load('pyr.npz')
 pyr=coef['X']
 coef=np.load('pind.npz')
